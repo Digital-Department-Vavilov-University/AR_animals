@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DogLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4645435541758273328
+  m_GuidHigh: 13174621052034315436
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4767311459440906810
+      m_GuidHigh: 10622087983292269221
+    m_SerializedTextureGuid:
+      m_GuidLow: 4423831771734460965
+      m_GuidHigh: 11199171712010774571
+    m_Size: {x: 0.2, y: 0.13287671}
+    m_SpecifySize: 1
+    m_Name: husky
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4904272634689796762
+      m_GuidHigh: 3225662451017155260
+    m_SerializedTextureGuid:
+      m_GuidLow: 6243183420971897102
+      m_GuidHigh: 5731690717046690394
+    m_Size: {x: 0.2, y: 0.13333334}
+    m_SpecifySize: 1
+    m_Name: chihuahua
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5058410874595290602
+      m_GuidHigh: 4195949741892563117
+    m_SerializedTextureGuid:
+      m_GuidLow: 8188861295293112916
+      m_GuidHigh: 3494348936404992553
+    m_Size: {x: 0.2, y: 0.301}
+    m_SpecifySize: 1
+    m_Name: labrador
+    m_Texture: {fileID: 0}

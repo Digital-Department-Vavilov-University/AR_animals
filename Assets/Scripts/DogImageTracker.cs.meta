@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3efb0a2a1abcd0f44b02f01fb553cdbe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - trackedImageManager: {instanceID: 0}
+  - infoPanel: {instanceID: 0}
+  - textPoroda: {instanceID: 0}
+  - textDescription: {instanceID: 0}
+  - dogPhoto: {instanceID: 0}
+  - huskySprite: {fileID: 21300000, guid: d451ca259b8e3d642b68011956736b9b, type: 3}
+  - chihuahuaSprite: {fileID: 21300000, guid: 5aa3510e3e3e56a45ad2f8df560e8b4f, type: 3}
+  - labradorSprite: {fileID: 21300000, guid: 2ce42254adf671a42902af03d86b7e30, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
