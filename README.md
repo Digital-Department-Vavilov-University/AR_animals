@@ -22,6 +22,9 @@
    - При совпадении — Unity "узнаёт" имя изображения (например, `"husky"`).
 
 4. **Отображение информации**
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/21eaa4d5-0f79-4fc4-82bd-f3ec26f7717d" alt="Форма ввода - Русский">
+</p>
    - После распознавания, скрипт `DogImageTracker.cs` активирует на экране **UI-панель** `InfoPanel`.
    - На этой панели динамически появляется:
      - 🐾 **Название породы** (например, "Хаски")
@@ -39,7 +42,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/50df8d8c-b3a3-420d-b351-3ab3cb1d17d8" alt="Форма ввода - Русский">
 </p>
-Добрая, умная и активная собака. Отлично ладит с детьми.
 
 ---
 
@@ -48,11 +50,57 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1a720be4-a59b-42ea-8285-da4f46b33da5" alt="Форма ввода - Русский">
 </p>
-Активная и выносливая порода. Требует много прогулок и холода.
 
 ---
 
 ## 📝 Примечание
 
 Изображения пород размещаются в папке `Resources`, а их имена должны точно соответствовать записям в Reference Image Library (`husky`, `labrador`, `chihuahua`). Это важно для правильной работы `switch-case` в скрипте `DogImageTracker.cs`.
+## 🔧 Используемые технологии
+
+- Unity 2022.3+
+- AR Foundation (v5+)
+- ARCore XR Plugin
+- TextMeshPro (UI)
+- C#
+- Android SDK / ADB
+
+---
+
+## 📱 Как собрать под Android
+
+1. Установите **Unity** и **Android Build Support**
+2. Установите через Package Manager:
+   - `AR Foundation`
+   - `ARCore XR Plugin`
+   - `XR Plugin Management`
+3. Включите **ARCore**:
+   - `Edit → Project Settings → XR Plugin Management → Android → ARCore`
+4. В `Player Settings`:
+   - **Camera Usage Description**: "Требуется для AR"
+   - **Minimum API Level**: 24 или выше
+   - Включите `AR Required` (в XR Settings)
+5. Подключите телефон с включённой отладкой (`Developer Mode`)
+6. Открой `File → Build Settings → Android → Build and Run`
+
+---
+
+## 📁 Структура проекта
+
+```
+Assets/
+├── Scripts/
+│   └── DogImageTracker.cs
+├── Resources/
+│   ├── husky.png
+│   ├── labrador.png
+│   └── chihuahua.png
+├── Prefabs/
+│   └── InfoPanel.prefab
+├── Scenes/
+│   └── ARDogScene.unity
+└── DogLibrary.asset
+```
+
+---
 
